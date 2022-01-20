@@ -25,6 +25,7 @@ Contracts are deployed only to local ganache-cli.
 In this sections, you can find list of Levels of Ethernaut app reproduced. There has not been each level listed as learning is a long process. :)
 
 1. Fallback
+2. Fallout
 
 ## Credits
 
