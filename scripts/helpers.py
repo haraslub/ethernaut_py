@@ -20,5 +20,7 @@ def get_account(index=None, id=None):
 
 def deploy_contract(contract, account):
     print("Deploying contract..")
-    contract_deployment = contract.deploy({"from": account})
+    contract_deployment = contract.deploy(
+        {"from": account},
+        publish_source=config["networks"][network.show_active()].get("verify", False))
     return contract_deployment

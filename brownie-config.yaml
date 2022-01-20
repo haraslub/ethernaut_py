@@ -5,5 +5,14 @@ compiler:
     remappings:
       - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.0.0"
 dotenv: .env
+networks:
+  development:
+    verify: False
+    coinflip_instance_address: ""
+    coinfliphack_contract_address: ""
+  rinkeby:
+    verify: True
+    coinflip_instance_address: "0x0bc62bAd94fb61c9F4b9Fe55dB02813469A05847"
+    coinfliphack_contract_address: "0x5263660D9741983D03dEB7ed38FDa52aFA72DE33"
 wallets:
   from_key: ${PRIVATE_KEY}
