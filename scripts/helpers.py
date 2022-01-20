@@ -16,3 +16,9 @@ def get_account(index=None, id=None):
     if id:
         return accounts.load(id)
     return accounts.add(config["wallets"]["from_key"])
+
+
+def deploy_contract(contract, account):
+    print("Deploying contract..")
+    contract_deployment = contract.deploy({"from": account})
+    return contract_deployment
