@@ -13,6 +13,6 @@ networks:
   rinkeby:
     verify: True
     coinflip_instance_address: "0x0bc62bAd94fb61c9F4b9Fe55dB02813469A05847"
-    coinfliphack_contract_address: "0x5263660D9741983D03dEB7ed38FDa52aFA72DE33"
+    coinfliphack_contract_address: "0x16fEc4Eda22C7B79a24eEdd4e3627B360094FC17"
 wallets:
   from_key: ${PRIVATE_KEY}
