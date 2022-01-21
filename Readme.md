@@ -30,4 +30,4 @@ In this sections, you can find list of Levels of Ethernaut app reproduced. There
 
 ## Credits
 
-Credits to OpenZeppelin to provide us with a such great app and to Patrick Collins for tremendous contribution to the area.
+Credits to OpenZeppelin for providing us with a such great app and to Patrick Collins for tremendous contribution to the education of us, newbies.
