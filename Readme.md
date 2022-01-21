@@ -27,6 +27,7 @@ In this sections, you can find list of Levels of Ethernaut app reproduced. There
 1. Fallback (only for ganache-cli)
 2. Fallout (only for ganache-cli)
 3. Coin Flip (only for ganache-cli, Rinkeby)
+4. Telephone (only for ganache-cli, Rinkeby)
 
 ## Credits
 
