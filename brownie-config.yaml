@@ -11,10 +11,13 @@ networks:
     coinflip_instance_address: ""
     coinfliphack_contract_address: ""
     telephone_instance: ""
+    token_instance: ""
   rinkeby:
     verify: False
     coinflip_instance_address: "0x0bc62bAd94fb61c9F4b9Fe55dB02813469A05847"
     coinfliphack_contract_address: "0x16fEc4Eda22C7B79a24eEdd4e3627B360094FC17"
     telephone_instance: "0x2de7F0aA4fb73391D0d8B64Bbe77AdA8E2d67E99"
+    token_instance: "0xeCE0Dc8062Ffd4f2EE1c266e0C481CB5e4cf0023"
 wallets:
   from_key: ${PRIVATE_KEY}
+  from_key_acc: ${PRIVATE_KEY_ACC}

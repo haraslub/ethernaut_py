@@ -27,7 +27,7 @@ def coinflip_to_hack(gasLimitEstimation=50000, number_of_flips_needed=12):
         account_to_hack = get_account()
         # deploy the CoinFlipToHack contract if not already deployed:
         if config["networks"][network.show_active()]["coinfliphack_contract_address"] == "":
-            coinflip_to_hack_contract = deploy_contract(CoinFlipToHackV2, account_to_hack)
+            coinflip_to_hack_contract = deploy_contract(CoinFlipToHackV2, account_to_hack) # in config file set verify to True
         else:
             coinflip_to_hack_contract = Contract.from_explorer(config["networks"][network.show_active()]["coinfliphack_contract_address"])
         # Set instance to be hacked
