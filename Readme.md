@@ -31,6 +31,7 @@ In this sections, you can find list of Levels of Ethernaut app reproduced. There
 5. Token (only for ganache-cli, Rinkeby)
 6. Delegation (**skipped for now as cannot find out how to perform delegatecall**)
 7. Force (only for ganache-cli, Rinkeby)
+8. Vault (only for ganache-cli, Rinkeby)
 
 ## Credits
 
