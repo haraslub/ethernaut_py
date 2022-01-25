@@ -29,10 +29,10 @@ In this sections, you can find list of Levels of Ethernaut app reproduced. There
 3. Coin Flip (only for ganache-cli, Rinkeby)
 4. Telephone (only for ganache-cli, Rinkeby)
 5. Token (only for ganache-cli, Rinkeby)
-6. Delegation (**skipped for now as cannot find out how to perform delegatecall**)
+6. Delegation (only for ganache-cli, Rinkeb)
 7. Force (only for ganache-cli, Rinkeby)
 8. Vault (only for ganache-cli, Rinkeby)
 
 ## Credits
 
-Credits to OpenZeppelin for providing us with a such great app and to Patrick Collins for tremendous contribution to the education of us, newbies.
+Credits to OpenZeppelin for providing us with a such great app, to Patrick Collins for tremendous contribution to the education of us, newbies, and to whole community for its willingnesss.
