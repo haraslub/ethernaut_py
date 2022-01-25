@@ -24,3 +24,15 @@ def deploy_contract(contract, account):
         {"from": account},
         publish_source=config["networks"][network.show_active()].get("verify", False))
     return contract_deployment
+
+
+def get_instance_address(instance_name, contract_to_deploy=None):
+    if (network.show_active() in LOCAL_BLOCKCHAIN_ENVIRONMENTS) & (contract_to_deploy != None):
+        deploying_account = get_account(1)
+        print("Deploying contract to local network: {}".format(network.show_active()))
+        contract_deployed = contract_to_deploy.deploy({"from": deploying_account})
+        contract_to_deployed_address = contract_deployed.address
+    else:
+        contract_to_deployed_address = config["networks"][network.show_active()][instance_name]
+    
+    return contract_to_deployed_address
