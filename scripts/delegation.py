@@ -21,9 +21,6 @@ def initial_setup(contract_to_deploy, interface_of_contract_to_deploye, deployed
     return deployed_contract
 
 
-
-
-
 def deploy_attack_on_delegate_contract(attack_contract_to_deploy, target_contract_deployed):
     # set deploying accoutn
     deploying_account = get_account()

@@ -22,7 +22,7 @@ Contracts are deployed only to local ganache-cli.
 
 ## Levels reproduced
 
-In this sections, you can find list of Levels of Ethernaut app reproduced. There has not been each level listed as learning is a long process. :)
+In this sections, you can find list of Levels of Ethernaut app reproduced. There has not been each level listed as learning is a long process. :) I will add them one by one.
 
 1. Fallback (only for ganache-cli)
 2. Fallout (only for ganache-cli)
@@ -32,6 +32,7 @@ In this sections, you can find list of Levels of Ethernaut app reproduced. There
 6. Delegation (only for ganache-cli, Rinkeb)
 7. Force (only for ganache-cli, Rinkeby)
 8. Vault (only for ganache-cli, Rinkeby)
+9. King (only for ganache-cli, Rinkeby)
 
 ## Credits
 
