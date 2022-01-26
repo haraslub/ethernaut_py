@@ -15,6 +15,7 @@ networks:
     delegation_instance: ""
     force_instance: ""
     vault_instance: ""
+    king_instance: ""
   rinkeby:
     verify: False
     coinflip_instance_address: "0x0bc62bAd94fb61c9F4b9Fe55dB02813469A05847"
@@ -24,6 +25,7 @@ networks:
     delegation_instance: "0x1317dA86D1Ae232aB5f4AD7478209a42690fD7cc"
     force_instance: "0x5A2C3D71BbC7a2f46a1CD42b33eb61a80c182FbF"
     vault_instance: "0x1bf1331DB224443bd4064fF74b4188c6aAC34fA9"
+    king_instance: "0x5818B76A9A7aC58416dc251e61b7189782b27f5C"
 wallets:
   from_key: ${PRIVATE_KEY}
   from_key_acc: ${PRIVATE_KEY_ACC}
