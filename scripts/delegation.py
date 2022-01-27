@@ -1,4 +1,6 @@
-from copy import deepcopy
+"""
+Refers to hack of The Parity Wallet, see: https://blog.openzeppelin.com/on-the-parity-wallet-multisig-hack-405a8c12e8f7/
+"""
 from brownie import Delegate, Delegation, interface, network, config
 from scripts.helpers import LOCAL_BLOCKCHAIN_ENVIRONMENTS, get_account
 
@@ -36,8 +38,6 @@ def deploy_attack_on_delegate_contract(attack_contract_to_deploy, target_contrac
 
 
 def claim_ownership_of_delegate_contract():
-    # initial setup
-    my_account = get_account()
     # get delegate contract
     delegate_contract = initial_setup(Delegate, interface.IDelegate, "delegation_instance")
     # deploy attack

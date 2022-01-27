@@ -33,6 +33,7 @@ In this sections, you can find list of Levels of Ethernaut app reproduced. There
 7. Force (only for ganache-cli, Rinkeby)
 8. Vault (only for ganache-cli, Rinkeby)
 9. King (only for ganache-cli, Rinkeby)
+10. Reentrance (only for ganache-cli, Rinkeby)
 
 ## Credits
 
